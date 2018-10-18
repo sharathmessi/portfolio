@@ -1,0 +1,218 @@
+body{
+    color:#fff;
+    
+}
+#ssk{
+    font-size: 24px;
+    text-align:left; 
+    position: relative;
+     z-index:1000;
+    top: 40px;
+    padding:12px;
+    margin: 10px auto;
+    margin-bottom: 0;
+    color: steelblue;
+text-shadow: 0px 4px 3px #fff,
+             0px 10px 13px #fff,
+             0px 6px  12px #101010;
+}
+
+.firstLetter{
+    font-size: 48px;
+}
+hr{
+/*border: 0;*/
+/*height: 1px;*/
+/*background: #333;*/
+/*background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);*/
+/*background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);*/
+/*background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);*/
+/*background-image: -o-linear-gradient(left, #ccc, #333, #ccc);*/
+border: 0;
+height: 0;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    
+}
+h2{
+    color: dodgerblue ;
+    /*OrangeRed */
+    /*indianred*/
+    /*firebrick*/
+    /*darkred*/
+    font-weight: bold;
+    padding: 3px;
+    border-bottom:2px solid darkgrey;
+    width: 180px;
+    /*text-decoration: underline;*/
+    margin-left: 3px;
+    opacity: 0.7;
+    
+}
+.maincontainer{
+    margin-top: 36px;
+    margin-bottom: 10px;
+    width: 900px;
+    /*border: 1px solid orange;*/
+    overflow: hidden;
+    padding: 12px;
+    z-index: 1;
+    background: #101010	;
+    /*#080808*/
+    border-radius: 5% 0;
+}
+img{
+    width: 25%;
+    margin: 10px;
+    display: flex;
+    
+}
+p{
+    width: 72%;
+    text-align: justify;
+    padding:6px; 
+    color: #fff;
+}
+body{
+    background:url(https://images.unsplash.com/photo-1530036846422-afb4b7af2fd4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=93224dbc8d9e2c7f8b6460b6843c89d0&auto=format&fit=crop&w=500&q=60) no-repeat center;
+    background-size:cover; 
+    
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    background:darkgrey;
+    width: 100%;
+    height: 6%;
+    overflow: hidden;
+}
+.footer ul{
+ list-style: none;
+/*border:1px solid red;*/
+  margin: 0;
+    padding: 0;
+    overflow:hidden;
+    position: relative;
+    float: right;
+    margin-right: 16px;
+    
+    
+}
+.footer ul li{
+    float: left;
+    margin: 0 12px;
+}
+.footer ul li a{
+       display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.footer p{
+    width: 200px;
+}
+.fab {
+  font-size:28px;
+}
+.fa-facebook:hover {
+    color: #3B5998;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+    color: #262626;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.fa-google-plus-g:hover {
+    color: #DB4437;
+}
+.contactContainer{
+    width: 450px;
+    margin: 36px auto ;
+}
+form{
+    color: steelblue;
+    font-weight: bold;
+    font-size: 1.2em;
+    z-index: 100;
+    background: #101010;
+    width: 100%;
+    padding:12px;
+    border-radius: 2%;
+}
+.current{
+    background-color: #fff;
+    /*rgb(52, 58, 64)*/
+    border-radius: 25%;
+    margin: 0 5px;
+    padding: 2px;
+    width: 100%;
+}
+.carContainer{
+    width:70%;
+}
+.carousel{
+    /*border:2px solid red;*/
+    margin:30px;
+    background:#000;
+    border-radius:1%; /*optional*/
+    /*width: 70%;*/
+    
+}
+.briefWorks{
+    border:1px solid red;
+    background:#000;
+    margin:10px;
+    padding:6px;
+}
+.briefWorks h3{
+       color:dodgerblue;
+       padding:3px;
+       width:30%;
+       /*border-bottom:1px solid steelblue;*/
+       border-bottom:2px solid darkgrey;
+        font-weight:600;
+        opacity: 0.7;
+        font-weight: bolder;
+}
+h5{
+   width:30%;
+}
+.briefWorks p{
+    display:inline-block;
+   padding:0 24px;
+}
+.briefWorks a{
+    margin:12px;
+    /*margin-right:240px;*/
+    position:relative;
+    /*float:right;*/
+    /*padding:2px;*/
+    /*border:1px solid red;*/
+}
+.briefWorks img{
+    float: right
+}
+.aboutContainer{
+    width: 80%;
+    background:#101010;
+    margin: 36px auto 10px auto;
+    padding: 12px;
+    /*border: 1px solid green;*/
+}
+h4{
+    padding: 3px;
+    width: 30%;
+    border-bottom:1.5px solid silver;
+    margin-left: 36px;
+    margin-top: 12px;
+}
